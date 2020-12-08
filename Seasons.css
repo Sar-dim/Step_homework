@@ -1,0 +1,15 @@
+.menu li {
+    list-style-image: url(menu.png);
+}
+.winter li {
+    list-style-image: url(winter.png);
+}
+.spring li {
+    list-style-image: url(spring.png);
+}
+.summer li {
+    list-style-image: url(summer.png);
+}
+.autumn li {
+    list-style-image: url(autumn.png);
+}

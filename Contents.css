@@ -1,0 +1,36 @@
+ol {
+    list-style: none;
+    counter-reset: list;
+}
+ol li {
+    font-weight: normal;
+    color: rgb(32, 61, 148);
+}
+
+.upper_roman li:before {
+    list-style: none;
+    list-style-type: none;
+    content: counter(list, upper-roman) '.';
+    counter-increment: list;
+    font-weight: bold;
+    color: black;
+    padding-right: 5px;
+}
+.decimal li:before {
+    list-style: none;
+    list-style-type: none;
+    content: counter(list, decimal) '.';
+    counter-increment: list;
+    font-weight: bold;
+    color: black;
+    padding-right: 5px;
+}
+.lower_alpha li:before {
+    list-style: none;
+    list-style-type: none;
+    content: counter(list, lower-alpha) '.';
+    counter-increment: list;
+    font-weight: bold;
+    color: black;
+    padding-right: 5px;
+}
