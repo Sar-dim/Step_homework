@@ -1,6 +1,19 @@
 .dark_green {
     background-color: rgb(14, 73, 78);
+    margin-left: 20 px;
+    padding: 10px;
 }
-.Ligth_green {
+.ligth_green {
     background-color: rgb(35, 97, 103);
+    margin-inline-start: 0px;
+    padding: 10px;
+}
+.dt {
+    margin: 5px;
+    padding: 5px;
+    color: white;
+    margin-inline-start: 40px;
+}
+.dd {
+    color: white;
 }
