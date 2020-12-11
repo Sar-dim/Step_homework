@@ -1,0 +1,13 @@
+div {
+    margin: 5% 15%;
+    opacity: 0.8;
+    background-color: gray;
+    
+}
+body {
+    background: url(70_main.jpeg) repeat fixed;
+    padding: 50 px;
+}
+h2 {
+    text-align: center;
+}

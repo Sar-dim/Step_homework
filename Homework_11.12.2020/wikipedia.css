@@ -1,0 +1,27 @@
+body {
+    padding: 5%;
+}
+hr {
+    height: 1px;
+    background-color: gray; 
+    border: none;  
+}
+#header {
+    color: gray;
+    font-size: small;
+}
+.menu {
+    
+    border: 2px solid rgb(146, 146, 146);
+    background: rgb(224, 224, 224);
+    width: 400px;
+    padding: 20px; 
+}
+#contents {
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    text-align: center;
+}
+a:visited {
+    color: blue;
+}
